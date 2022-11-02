@@ -2,10 +2,27 @@
 a: int = 8
 a = 9
 # todo: Как вывести переменную в Python?
-print(a)
+# print(a)
 
 # todo: Какие типы данных есть в Python?
-int , str, float, bool, list, tuple, dict
+# int
+pears: int
+apples = 15
+pears = 18
+# float
+bodies: float = 3.5
+# str
+name = "Joe"
+surname = 'Biden \'old\' '
+fullname: str = "Dwayne 'The Rock' Johnson"
+# bool
+is_coder: bool = True
+# list 
+skills: list[str] = ['coding', 'singing']
+# tuple 
+eyes_color: tpl = (0, 0, 255)
+# dict
+
 # todo: Как определить тип данных переменной?
 type(a)
 # todo: Как выполнить явное приведение переменной
