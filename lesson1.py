@@ -2,7 +2,8 @@
 a: int = 8
 a = 9
 # todo: Как вывести переменную в Python?
-print(a);
+print(a)
+
 # todo: Какие типы данных есть в Python?
 int , str, float, bool, list, tuple, dict
 # todo: Как определить тип данных переменной?
