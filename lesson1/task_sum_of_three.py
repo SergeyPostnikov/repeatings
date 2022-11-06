@@ -1,5 +1,5 @@
-int a = input()
-int b = input()
-int c = input()
+a: int = int(input())
+b: int = int(input())
+c: int = int(input())
 
-print (a + b + c)
+print(a + b + c)
