@@ -1,4 +1,4 @@
-length = int(input())
-width = int(input())
+length: int = int(input())
+width: int = int(input())
 
 print(length * width)
