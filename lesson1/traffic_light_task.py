@@ -1,4 +1,4 @@
-Time_Left = int(input('enter time  in minutes since begining of hour'))
+Time_Left = int(input('enter time  in minutes since begining of hour: '))
 x = Time_Left // 5
 l = Time_Left - (x * 5)
 
