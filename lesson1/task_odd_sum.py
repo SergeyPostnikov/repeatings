@@ -1,4 +1,4 @@
-def get_special_sum(num: 'log10(num) = 5'):
+def get_special_sum(num: int):
     flag_odd = False
     odd_sum = 0
     even_sum = 0
@@ -11,4 +11,5 @@ def get_special_sum(num: 'log10(num) = 5'):
         num //= 10
     return even_sum - odd_sum
  
+
 print(get_special_sum(212121))
