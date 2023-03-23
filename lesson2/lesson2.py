@@ -22,3 +22,9 @@ def test_get_squared_odds():
     assert get_squared_odds([1, 3, 5, 7, 9]) == [1, 9, 25, 49, 81]
     assert get_squared_odds([-1, -2, -3, -4, -5]) == [1, 9, 25]
     assert get_squared_odds([2, 4, 6, 7, 8, 9]) == [49, 81]
+
+    
+ 
+
+if __name__ == '__main__':
+    test_get_squared_odds()
